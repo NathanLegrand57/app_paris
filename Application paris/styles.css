@@ -1,0 +1,495 @@
+body {
+    background-image: url(/img/background_img.png);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    overflow: hidden;
+    background: linear-gradient(to right,white 20%, black 50%);
+}
+
+.image img {
+    float: left;
+    margin-top: 5px;
+}
+
+.container {
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.container img {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.container a {
+    float: right;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 70px;
+    color: white;
+}
+
+.container a:hover {
+    color: rgb(97, 214, 253);
+    text-decoration: underline;
+}
+
+/* Présentation du site */
+
+.presentation {
+    float: left;
+    color: white;
+    background-color: rgba(0, 139, 139, 0.7);
+    margin-left: 40px;
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.texte {
+    margin: 20px;
+    line-height: 25px;
+}
+
+iframe {
+    float: right;
+    border-radius: 10px;
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 8%;
+}
+
+#match {
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Box d'inscription et de connexion */
+
+.box {
+    background: linear-gradient(red 20%,rgb(0, 0, 0) 90%);
+    opacity: 5;
+    margin: auto;
+    margin-top: 5%;
+    border: 2bx;
+    width: 500px;
+    border-radius: 5px;
+    padding-top: 5px;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.box p {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.pasdecompte p {
+    margin-left: 50px;
+}
+
+.box a {
+    color: blue;
+}
+
+
+.informations {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.informations input:hover {
+    background-color: white;
+}
+
+.confirmation {
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.bouton {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bouton a {
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.bouton a:hover {
+    background-color: rgb(254, 84, 84);
+}
+
+/* Mot de passe oublié */
+
+.mdp_oublie {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.mdp_oublie a:hover {
+    text-decoration: underline ;
+}
+
+.container4 {
+    background-color: #BBC8C7;
+    padding-top: 2%;
+    padding-bottom: 30%;
+}
+
+.boxmdp {
+    margin: 0 auto;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 10px 10px 5% 10px;
+    margin-top: 100px;
+    padding-bottom: 5%;
+}
+
+.boxmdp h1 {
+    margin-bottom: 0px;
+}
+
+.boxmdp p {
+    margin-left: 15px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.boxmdp input {
+    margin-top: 15px;
+    margin-left: 8%;
+    border: solid black 4px;
+    width: 80%;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.boxmdp a {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-left: 19%;
+    font-size: 20px;
+}
+
+/* Création réussite */
+
+.success p {
+    margin-top: 2px;
+}
+
+/* Classement des équipes */
+
+.container2 {
+    overflow: hidden;
+    background-color: rgb(77, 66, 66);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 60px;
+}
+
+.container3 img {
+    float: left;
+    width: 48%;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+/* Connecté */
+
+.container5 {
+        background-color: rgb(77, 66, 66);
+        padding-bottom: 4.8%;
+        overflow: hidden;
+}
+
+.classement_parieurs {
+    float: left;
+    margin-left: 8%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    width: 40%;
+}
+
+.classement_parieurs table, tr, td {
+    border: solid whitesmoke 2px;
+}
+
+.classement_parieurs th {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.classement_parieurs table {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.classement_parieurs td {
+    color: white;
+}
+
+.classement_parieurs td:hover {
+    background-color: rgb(33, 137, 255);
+    
+}
+
+.regles {
+    background-color: grey;
+    float: left;
+    width: 40%;
+    color: whitesmoke;
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-top: 9%;
+    padding-bottom: 5%;
+}
+
+.texte_regles p {
+    line-height: 25px;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.regles a {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 42%;
+    border-radius: 5px;
+    font-size: 25px;
+    transition-duration: 0.25s;
+}
+
+.regles a:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.25s;
+}
+
+.bouton_parier {
+    transition-duration: 0.25s;
+}
+
+.bouton_parier:hover {
+    transition-duration: 0.25s;
+}
+
+
+/* Choisir le type de paris */
+
+.container8 {
+    padding-bottom: 20%;
+    background-color: rgb(77, 66, 66);
+    overflow: hidden;
+    color: white;
+    padding-top: 5%;
+}
+
+.paris_equipe {
+    float: left;
+    margin-left: 6%;
+    background-color: grey;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    width: 40%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+
+.container8 img {
+    height: 40px;
+}
+
+.equipe_a {
+    float: left;
+    margin-left: 6%;
+    background-color: blue;
+    margin-bottom: 100px;
+}
+
+.equipe_b {
+    float: right;
+    background-color: red;
+    margin-right: 6%;
+}
+
+.equipe_a, .equipe_b {
+    width: 32%;
+    margin-top: 6%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.score_victoire, .buteur_victoire {
+    float: right;
+    margin-right: 6%;
+    background-color: grey;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    width: 40%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.score_victoire .equipe_a {
+    margin-bottom: 13%;
+}
+
+.score_buteur_victoire {
+    float: left;
+    margin-left: 6%;
+    background-color: grey;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    width: 40%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.score_buteur_victoire h2 {
+    margin-left: 2%;
+}
+
+.score_buteur_victoire .equipe_a {
+    margin-bottom: 54px;
+}
+.container8 a {
+    color: white;
+}
+
+.container8 input {
+    width: 90%;
+}
+
+.score_victoire .equi
+
+/* Parier pour l'équipe gagnante */
+
+.container6 {
+    padding-bottom: 20%;
+    background-color: rgb(77, 66, 66);
+    overflow: hidden;
+    color: white;
+    padding-top: 5%;
+}
+
+.equipe1 {
+    float: left;
+    margin-left: 6%;
+    background-color: blue;
+}
+
+.equipe1, .equipe2 {
+    width: 40%;
+    margin-top: 6%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.equipe1 a, .equipe2 a {
+    color: white;
+}
+
+.equipe1 :hover , .equipe2 :hover {
+    color: black;
+}
+
+.equipe1 img, .equipe2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.equipe2 {
+    float: right;
+    background-color: red;
+    margin-right: 6%;
+}
+
+/* Vote pour la France */
+
+.container7 {
+    padding-bottom: 20%;
+    background-color: rgb(77, 66, 66);
+    overflow: hidden;
+    color: white;
+    padding-top: 5%;
+}
+
+.equipefr {
+        width: 40%;
+        margin-top: 6%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: blue;
+        margin: 0 auto;
+}
+
+
+
+/* Vote pour la Pologne */
+
+.equipepol {
+    width: 40%;
+    margin-top: 6%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    margin: 0 auto;
+}
